@@ -26,7 +26,8 @@ namespace Parcial
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSwaggerDocument();
             services.AddDbContext<DbCandidatosContext>(opt =>
-            opt.UseSqlServer(@"Server=ISSEI\SQLEXPRESS;Database=vvv;Trusted_Connection=True;"));
+             opt.UseSqlServer(@"Server=ANUMM\SQLEXPRESS;Database=Parcial;Trusted_Connection=True;"));
+           
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {

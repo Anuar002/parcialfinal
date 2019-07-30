@@ -20,7 +20,7 @@ namespace TaskSharpHTTP.Controllers
             if (_context.CandidatosList.Count() == 0)
             {
               
-                 _context.CandidatosList.Add(new Candidatos {  NombreCa = "Alvaro Uribe", Votos = 5 });
+                _context.CandidatosList.Add(new Candidatos {  NombreCa = "Alvaro Uribe", Votos = 5 });
                 _context.CandidatosList.Add(new Candidatos {  NombreCa = "Juan  Santos", Votos = 5 });
                 _context.CandidatosList.Add(new Candidatos {   NombreCa = "Marlon Moreno", Votos = 5 });
                 _context.CandidatosList.Add(new Candidatos {  NombreCa = "Rafael Kenedy", Votos = 5 });
